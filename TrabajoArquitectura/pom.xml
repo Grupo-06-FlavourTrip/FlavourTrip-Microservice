@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.2.10</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>com.flavourtrip</groupId>
 	<artifactId>TrabajoArquitectura</artifactId>
@@ -17,6 +17,7 @@
 		<module>msvc-user</module>
 		<module>msvc-tour</module>
 		<module>msvc-authentication</module>
+		<module>api-gateway</module>
 	</modules>
 	<url/>
 	<licenses>

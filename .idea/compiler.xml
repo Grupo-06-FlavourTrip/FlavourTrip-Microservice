@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="msvc-authentication" />
         <module name="msvc-tour" />
+        <module name="api-gateway" />
         <module name="msvc-restaurant" />
         <module name="service-discovery" />
         <module name="msvc-user" />
@@ -16,6 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
       <module name="msvc-authentication" options="-parameters" />
       <module name="msvc-restaurant" options="-parameters" />
       <module name="msvc-tour" options="-parameters" />

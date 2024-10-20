@@ -1,4 +1,4 @@
-package com.flavourtrip.msvc_tour;
+package microservicio.Tour;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

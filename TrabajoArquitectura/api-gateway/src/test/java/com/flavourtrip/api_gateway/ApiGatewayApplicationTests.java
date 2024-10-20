@@ -1,10 +1,10 @@
-package com.flavourtrip.msvc_tour;
+package com.flavourtrip.api_gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MsvcTourApplicationTests {
+class ApiGatewayApplicationTests {
 
 	@Test
 	void contextLoads() {
