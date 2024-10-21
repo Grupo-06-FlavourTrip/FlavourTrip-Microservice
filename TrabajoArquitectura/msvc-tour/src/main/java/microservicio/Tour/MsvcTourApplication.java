@@ -1,13 +1,13 @@
-package microservicio.Restaurante;
+package microservicio.Tour;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestauranteApplication {
+public class MsvcTourApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestauranteApplication.class, args);
+		SpringApplication.run(MsvcTourApplication.class, args);
 	}
 
 }
