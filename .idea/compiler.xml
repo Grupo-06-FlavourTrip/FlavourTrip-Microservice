@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="msvc-authentication" />
-        <module name="msvc-tour" />
         <module name="api-gateway" />
+        <module name="msvc-tour" />
         <module name="msvc-restaurant" />
         <module name="service-discovery" />
         <module name="msvc-user" />

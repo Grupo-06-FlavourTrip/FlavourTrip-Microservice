@@ -13,7 +13,7 @@ import microservicio.Tour.domain.model.valueobjects.ImageTour;
 @Getter
 @Setter
 @Table(name = "Reserva")
-public class Reserva extends AuditableModel<Reserva> {  // se hereda la nueva clase AuditableModel
+public class Reserva extends AuditableModel {  // se hereda la nueva clase AuditableModel
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

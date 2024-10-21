@@ -4,15 +4,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public record ImageTour(String imageUrl) {
-    private static final Pattern IMAGE_URL_PATTERN = Pattern.compile("^https?://.*\\.(png|jpg)$");
 
     public ImageTour {
-        if (!isValidImageUrl(imageUrl)) {
-            throw new IllegalArgumentException("URL de imagen no es PNG o JPG");
+        if (!imageUrl.startsWith("http://") && !imageUrl.startsWith("https://")) {
+            throw new IllegalArgumentException("URL de imagen debe comenzar con http:// o https://");
         }
-    }
-    private boolean isValidImageUrl(String imageUrl) {
-        Matcher matcher = IMAGE_URL_PATTERN.matcher(imageUrl);
-        return matcher.matches();
     }
 }
