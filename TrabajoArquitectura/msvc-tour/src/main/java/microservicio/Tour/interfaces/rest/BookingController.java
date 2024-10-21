@@ -11,7 +11,7 @@ import microservicio.Tour.interfaces.rest.resources.ReservaResource;
 import microservicio.Tour.interfaces.rest.transform.ReservaResourceFromEntityAssembler;
 
 @RestController
-@RequestMapping(value="/Api/v1/TasteTour/booking", produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value="/Api/v1/FlavourTrip/booking", produces = MediaType.APPLICATION_JSON_VALUE)
 @Tag(name="Booking", description = "Booking Managment Endpoints")
 public class BookingController {
 

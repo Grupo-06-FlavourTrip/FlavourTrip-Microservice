@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping(value="/Api/v1/TasteTour/tour", produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value="/Api/v1/FlavourTrip/tour", produces = MediaType.APPLICATION_JSON_VALUE)
 @Tag(name="Tour", description = "Tour Managment Endpoints")
 public class TourController {
     private final TourCommandService tourCommandService;
